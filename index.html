@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+     <h1>Countries Information</h1>
+     <div class="controls">
+        <select id="sort-options">
+            <option value='asc'>Sort By Population</option>
+            <option value="asc">Ascending</option>
+            <option value="desc">Descending</option>
+        </select>
+        <select id="region-filter">
+            <option value="">Filter by Region</option>
+            <option value="Asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="Africa">Africa</option>
+            <option value="Oceania">Oceania</option>
+            <option value="Americas">Americas</option>
+            <option value="Antarctica">Antarctica</option>
+        </select>
+    </div>
+    <div class="container" id="country-container">
+    </div>
+  </body>
+</html>
+
+<script src="index.js"></script>
